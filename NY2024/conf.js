@@ -20,7 +20,7 @@ Particle = function(p0, p1, p2, p3) {
     this.p3 = p3;
 
     this.time = 0;
-    this.duration = 3 + Math.random() * 4;
+    this.duration = 3 + Math.random() * 2;
     this.color =  '#' + Math.floor((Math.random() * 0xffffff)).toString(16);
 
     this.w = 8;
@@ -97,7 +97,7 @@ Exploader = function(x, y) {
     this.x = x;
     this.y = y;
 
-    this.startRadius = 24;
+    this.startRadius = 44;
 
     this.time = 0;
     this.duration = 0.4;

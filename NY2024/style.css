@@ -27,7 +27,8 @@ body {
 }
 
 #main_img {
-    margin: 1rem;
+    padding: 1rem;
+    margin: auto;
     max-width: -webkit-fill-available;
     max-height: -webkit-fill-available;
 }
