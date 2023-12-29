@@ -29,7 +29,7 @@ body {
 }
 
 #main_img {
-    margin: auto;
+    margin: 1rem;
     max-width: -webkit-fill-available;
     max-height: -webkit-fill-available;
     object-fit: contain;
@@ -37,7 +37,6 @@ body {
 
 #main_container {
     margin: 2rem;
-    padding: 1rem 1rem;
     border-radius: 30px;
     display: flex;
     align-items: center;
